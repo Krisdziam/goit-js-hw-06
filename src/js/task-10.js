@@ -21,7 +21,7 @@ function onCreateBoxes(amount) {
 
   let fragment = new DocumentFragment();
   
-  for (let i = 0; i <= amount; i++) {
+  for (let i = 0; i < amount; i++) {
     const btnSize = 30 + i * 10 + `px`;
     const createBtn = document.createElement("div");
     createBtn.style.width = btnSize;
