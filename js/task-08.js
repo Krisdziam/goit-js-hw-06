@@ -13,8 +13,9 @@ alert(`Всі поля повинні бути заповнені`)
 
 } else {
    console.log(`email: ${elements.email}, password: ${elements.password}`)
+   event.currentTarget.reset()
 }
-event.currentTarget.reset()
+
 }
 
 
